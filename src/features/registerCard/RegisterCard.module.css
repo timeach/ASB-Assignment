@@ -21,23 +21,16 @@
     padding: 7px 0;
     width: 25px;
     height: 3px;
-    line-height: 100%;
     background: black;
     background-clip: content-box;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
-    margin: 25px 25px;
-}
-.arrow {
-    position: absolute;
-    width: 15rpx;
-    height: 15rpx;
-    border-top: 4rpx solid #333;
-    border-right: 4rpx solid #333;
-    transform:rotate(-135deg);
+    margin: 30px 15px 25px 25px;
 }
 .title {
     flex:1;
+    padding-top: 10px;
+    padding-right: 20px;
     justify-content: center;
 }
 .form {
