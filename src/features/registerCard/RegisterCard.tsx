@@ -6,7 +6,8 @@ export function RegisterCard() {
     return (
         <div className={styles.whole}>
             <div className={styles.header}>
-                <img src='./burger.png' alt='menu' className={styles.icon}></img>
+                {/* <img src='./burger.png' alt='menu' className={styles.icon}></img> */}
+                <div className={styles.menu}></div>
                 <h3 className={styles.title}>Register card form</h3>
             </div>
             <div className={styles.form}>

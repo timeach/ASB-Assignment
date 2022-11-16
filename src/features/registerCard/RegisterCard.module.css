@@ -17,6 +17,17 @@
     border: none;
     border-bottom: 2px solid black;
 }
+.menu {
+    padding: 7px 0;
+    width: 25px;
+    height: 3px;
+    line-height: 100%;
+    background: black;
+    background-clip: content-box;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    margin: 25px 25px;
+}
 .title {
     flex:1;
     justify-content: center;
