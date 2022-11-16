@@ -38,9 +38,11 @@ const handelSubmit = () => {
     // dispatch(registerCardSlice.actions.addCard(creditCard))
     // dispatch(registerCardSlice.actions.addCard(cvc))
     // dispatch(registerCardSlice.actions.addCard(expires))
-    console.log(`Credit card:`,creditCard)
-    console.log(`CVC:`,cvc)
-    console.log(`Expiry:`,expires)
+    if(creditCard && cvc && expires){
+        console.log(`Credit card:`,creditCard)
+        console.log(`CVC:`,cvc)
+        console.log(`Expiry:`,expires)
+    }
 }
 
     return (
@@ -54,17 +56,17 @@ const handelSubmit = () => {
             <div className={styles.form}>
                 <p className={styles.message}>Welcome  User FirstName</p>
                 <div className={styles.card}>
-                    <input className={styles.input1} placeholder='Credit card number'
+                    <input className={styles.input1} type="number" placeholder='Credit card number'
                         value={creditCard}
                         onChange={handelCreditCard}
                     />
                 </div>
                 <div className={styles.card}>
-                    <input className={styles.input2} placeholder='expiry'
+                    <input className={styles.input2} type="number" placeholder='expiry'
                         value={expires}
                         onChange={handelExpries}
                     />
-                    <input className={styles.input2} placeholder='CVC'
+                    <input className={styles.input2} type="number" placeholder='CVC'
                         value={cvc}
                         onChange={handelCvc}
                     />

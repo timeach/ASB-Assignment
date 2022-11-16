@@ -24,8 +24,4 @@ export const { addCard } = registerCardSlice.actions;
 
 export const selectRegisterCard = (state: RootState) => state.registerCard.list;
 
-// We can also write thunks by hand, which may contain both sync and async logic.
-// Here's an example of conditionally dispatching actions based on current state.
-
-
 export default registerCardSlice.reducer;
