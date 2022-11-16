@@ -1,13 +1,19 @@
 import React from 'react';
 import styles from './RegisterCard.module.css';
-
+import {
+    useHistory,
+    useLocation,
+    useParams,
+    useRouteMatch,
+  } from "react-router-dom";
 export function RegisterCard() {
-
+const history = useHistory()
     return (
         <div className={styles.whole}>
             <div className={styles.header}>
-                {/* <img src='./burger.png' alt='menu' className={styles.icon}></img> */}
-                <div className={styles.menu}></div>
+                <div className={styles.menu}
+                onClick={ () => {history.push("/menu")}}
+                ></div>
                 <h3 className={styles.title}>Register card form</h3>
             </div>
             <div className={styles.form}>
