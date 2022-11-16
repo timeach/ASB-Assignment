@@ -6,6 +6,7 @@ import { useAppSelector, useAppDispatch } from '../../app/hooks';
 import { registerCardSlice, selectRegisterCard } from './registerCardSlice'
 
 interface State {
+    message:string
     creditCard: number;
     cvc: number;
     expires: number;
@@ -14,6 +15,7 @@ interface State {
 export function RegisterCard() {
 const history = useHistory()
 
+const [message, setMessage] = useState<string>('Welcome { User.FirstName }')
 const [creditCard, setCreditCard] = useState<number>()
 const [cvc, setCvc] = useState<number>()
 const [expires, setExpires] = useState<number>()
@@ -39,9 +41,9 @@ const handelSubmit = () => {
     // dispatch(registerCardSlice.actions.addCard(cvc))
     // dispatch(registerCardSlice.actions.addCard(expires))
     if(creditCard && cvc && expires){
-        console.log(`Credit card:`,creditCard)
-        console.log(`CVC:`,cvc)
-        console.log(`Expiry:`,expires)
+        console.log('Credit card:',creditCard)
+        console.log('CVC:',cvc)
+        console.log('Expiry:',expires)
     }
 }
 
@@ -54,7 +56,7 @@ const handelSubmit = () => {
                 <h3 className={styles.title}>Register card form</h3>
             </div>
             <div className={styles.form}>
-                <p className={styles.message}>Welcome  User FirstName</p>
+                <p className={styles.message}>{message}</p>
                 <div className={styles.card}>
                     <input className={styles.input1} type="number" placeholder='Credit card number'
                         value={creditCard}

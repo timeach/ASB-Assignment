@@ -1,3 +1,5 @@
+html{font-size: 4vw;}
+
 .whole {
     display:flex;
     flex-direction: column;
@@ -5,38 +7,41 @@
     justify-content: center;
     border-style:solid;
     border-color: black;
-    border-width: 2px;
-    width: 375px;
-    height: 667px;
+    border-width: 0.2rem;
+    width: 22.5rem;
+    height: 40rem;
+    margin: 2.22rem auto;
 }
 .header {
     display:flex;
-    height: 89px;
+    height: 5.93rem;
     width: 100%;
     margin: 0;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 0.2rem solid black;
 }
 .arrow {
-    margin: 25px 25px;
+    margin: 1.67rem 1.67rem;
     box-sizing: border-box;
-    width: 25px;
-    height: 25px;
+    width: 1.67rem;
+    height: 1.67rem;
     border: solid black;
-    border-width: 0 4px 4px 0;
+    border-width: 0 0.26rem 0.26rem 0;
     transform: rotate(135deg);
 }
 .title {
     flex:1;
+    padding-top: 0.67rem;
+    padding-right: 1.34rem;
     justify-content: center;
 }
 .form {
-    height: 578px;
+    height: 38.53rem;
     width: 100%;
     margin:0;
 }
 .message {
-    height: 200px;
+    height: 13.33rem;
     width: 100%;
-    padding-top:50px;
+    padding-top:3.33rem;
 }

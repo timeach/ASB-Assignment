@@ -1,3 +1,5 @@
+html{font-size: 4vw;}
+
 .whole {
     display:flex;
     flex-direction: column;
@@ -5,62 +7,68 @@
     justify-content: center;
     border-style:solid;
     border-color: black;
-    border-width: 2px;
-    width: 375px;
-    height: 667px;
+    border-width: 0.2rem;
+    width: 22.5rem;
+    height: 40rem;
+    margin: 2.22rem auto;
 }
 .header {
     display:flex;
-    height: 89px;
+    height: 5.93rem;
     width: 100%;
     margin: 0;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 0.2rem solid black;
 }
 .menu {
-    padding: 7px 0;
-    width: 25px;
-    height: 3px;
+    padding: 0.5rem 0;
+    width: 1.67rem;
+    height: 0.2rem;
     background: black;
     background-clip: content-box;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    margin: 30px 15px 25px 25px;
+    border-top: 0.2rem solid black;
+    border-bottom: 0.2rem solid black;
+    margin: 2rem 1rem 1.67rem 1.67rem;
 }
 .title {
     flex:1;
-    padding-top: 10px;
-    padding-right: 20px;
+    padding-top: 0.67rem;
+    padding-right: 1.34rem;
     justify-content: center;
 }
 .form {
-    height: 578px;
+    height: 38.53rem;
     width: 100%;
     margin:0;
 }
 .message {
-    height: 200px;
+    height: 13.33rem;
     width: 100%;
-    padding-top:50px;
+    padding-top:3.33rem;
 }
 .card {
-    padding: 8px;
+    padding: 0.6rem;
 }
 .input1 {
     width:90%;
-    height:35px;
+    height:2.33rem;
     border:solid;
+    text-align:center;
+    font-size:1rem;
 }
 .input2 {
     float:right;
     width: 20%;
-    height:35px;
+    height:2.33rem;
     border:solid;
-    margin: 8px 15px;
+    margin: 0.6rem 1rem;
+    text-align:center;
+    font-size:1rem;
 }
 button {
     width:88%;
-    height:50px;
-    margin: 16px 0;
+    height:3.33rem;
+    margin: 1rem 0;
     border:solid;
+    font-size:1rem;
 }
