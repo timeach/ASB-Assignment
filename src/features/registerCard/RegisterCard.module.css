@@ -28,6 +28,14 @@
     border-bottom: 3px solid black;
     margin: 25px 25px;
 }
+.arrow {
+    position: absolute;
+    width: 15rpx;
+    height: 15rpx;
+    border-top: 4rpx solid #333;
+    border-right: 4rpx solid #333;
+    transform:rotate(-135deg);
+}
 .title {
     flex:1;
     justify-content: center;

@@ -1,0 +1,42 @@
+.whole {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style:solid;
+    border-color: black;
+    border-width: 2px;
+    width: 375px;
+    height: 667px;
+}
+.header {
+    display:flex;
+    height: 89px;
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+.arrow {
+    margin: 25px 25px;
+    box-sizing: border-box;
+    width: 25px;
+    height: 25px;
+    border: solid black;
+    border-width: 0 4px 4px 0;
+    transform: rotate(135deg);
+}
+.title {
+    flex:1;
+    justify-content: center;
+}
+.form {
+    height: 578px;
+    width: 100%;
+    margin:0;
+}
+.message {
+    height: 200px;
+    width: 100%;
+    padding-top:50px;
+}
