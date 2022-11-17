@@ -37,9 +37,6 @@ const handelExpries = (event) => {
     
 }
 const handelSubmit = () => {
-    // dispatch(registerCardSlice.actions.addCard(creditCard))
-    // dispatch(registerCardSlice.actions.addCard(cvc))
-    // dispatch(registerCardSlice.actions.addCard(expires))
     if(creditCard && cvc && expires){
         console.log('Credit card:',creditCard)
         console.log('CVC:',cvc)
