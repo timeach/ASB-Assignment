@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Tim's Assignment for ASB Software Specialist
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) TS template.
 
 ## Available Scripts
+
+Download or clone the repository and run `npm install` to install the dependence to run this project.
 
 In the project directory, you can run:
 
